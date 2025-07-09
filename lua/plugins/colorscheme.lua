@@ -36,9 +36,9 @@ return {
         },
       },
       integrations = {
-        telescope = {
+        mini = {
           enabled = true,
-          style = "nvchad",
+          indentscope_color = "", -- catppuccin color (eg. `lavender`) Default: text
         },
         dropbar = {
           enabled = true,
