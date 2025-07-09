@@ -4,9 +4,9 @@ return {
   opts = {
     startVisible = true,
     showBlankVirtLine = true,
-    highlightColor = { link = "Comment" },
+    highlightColor = { link = "Character" },
     hints = {
-      Caret = { text = "^", prio = 2 },
+      Caret = { text = "_", prio = 2 },
       Dollar = { text = "$", prio = 1 },
       MatchingPair = { text = "%", prio = 5 },
       Zero = { text = "0", prio = 1 },
