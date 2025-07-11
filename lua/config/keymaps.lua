@@ -6,6 +6,6 @@ local map = vim.keymap.set
 
 map("i", "jj", "<esc>", { desc = "Map J + J to escape insert mode" })
 
-map("n", "<C-e>", function()
-  require("mini.files").open(vim.api.nvim_buf_get_name(0), true)
-end, { desc = "Open mini.files (Directory of Current File)" })
+-- map("n", "<C-e>", function()
+--   require("mini.files").open(vim.api.nvim_buf_get_name(0), true)
+-- end, { desc = "Open mini.files (Directory of Current File)" })
