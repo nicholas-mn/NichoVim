@@ -9,5 +9,3 @@ Primarily inspired [from here](https://github.com/catppuccin/nvim/discussions/32
 ```bash
 git clone https://github.com/nicholas-mn/NichoVim.git ~/.config/nvim
 ```
-
-
